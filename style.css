@@ -15,6 +15,20 @@ body {
 
 }
 
+h1 {
+    margin-bottom: 0;
+    /* This removes the space below the h1 */
+}
+
+sub {
+    display: block;
+    /* This makes the subtitle start on a new line, but immediately below the title. */
+    margin-top: 0.2em;
+    /* Adjust space between title and subtitle */
+    font-size: 0.8em;
+    /* Smaller font size for subtitle */
+}
+
 ul {
     margin-block-start: 0.5em;
     margin-block-end: 0.5em;
